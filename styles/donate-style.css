@@ -11,6 +11,7 @@ p {
 
 h2 {
     font-size: 32px;
+    color: #005f73;
 }
 
 strong {
@@ -130,11 +131,14 @@ strong {
 
 main {
     padding: 130px 20px 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
 }
 
 .content-section {
-    width: 100%;
-    margin-bottom: 40px;
+    width: 90%;
+    margin: 20px auto;
     padding: 20px;
     background-color: #f7f7f7;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -257,6 +261,13 @@ main {
     .header-container {
         flex-direction: column;
         align-items: flex-start;
+    }
+
+    @media (max-width: 768px) {
+        .content-section {
+            width: 100%;
+            margin: 10px auto;
+        }
     }
 
     .site-navigation {

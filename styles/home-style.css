@@ -159,6 +159,11 @@ main {
     height: auto;
 }
 
+.visually-hidden {
+    visibility: hidden;
+    position: absolute;
+}
+
 .stats-list {
     position: absolute;
     top: 20%;
@@ -196,12 +201,21 @@ main {
     line-height: 1;
 }
 
+
 .stats-label {
     font-weight: bold;
     font-size: 1.2em;
     color: #005f73;
     margin-top: 10px;
 }
+
+.stats-label-money {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #005f73;
+    margin-top: 5px;
+}
+
 
 .reduced-font .stats-number {
     font-size: 3.5em;
